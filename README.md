@@ -52,4 +52,5 @@ The system information listed above is obtained as follows:<br>
 1.	The current system time is obtained using the date system call included in Xv6.<br>
 2.	RES is obtained from proc of individual process.<br>
 3.	%MEM is obtained by the formula: %mem = (RES / total memory) * 100%. The total physical memory in xv6 is constant which is 0xE000000 (224 MB) <br>
-4.	STATE and PID of processes are obtained from proc of current processes which are present in the ptable .  ptable can hold a maximum of 64 processes as defined .<br>
+4.	STATE and PID of processes are obtained from proc of current processes which are present in the ptable . ptable can hold a maximum of 64 processes as defined .<br>
+![dd](https://user-images.githubusercontent.com/38600655/69007327-612cea80-0962-11ea-9fe4-bae86f17424a.png)
